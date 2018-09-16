@@ -10,10 +10,15 @@ public class MyCar {
 		myCar[1] = new Car("HondaCivic","Small Car");
 		myCar[2] = new Car("HondaCRV","SUV");
 		myCar[3] = new Car("HondaOdyssy","Mini Van");
+			
 		for (Car hc:myCar)
 		{
 			System.out.println(hc.getModel() + " " + hc.getType());
+			if (hc.getModel().equals("HondaCivic")) 
+				System.out.println("this is the changes from personal laptop");
+			   
 		}
+		
 		
 	}
 
